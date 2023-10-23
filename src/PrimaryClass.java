@@ -15,7 +15,7 @@ public class PrimaryClass {
         weightKhulekani = Sc.nextFloat();
 
         resultBMI = (weightKhulekani / (float)Math.pow(heightKhulekani,2))*10000;
-        System.out.println(resultBMI);
+        System.out.println("Your score is: "+ resultBMI);
         if(resultBMI <= 16){
             System.out.println("Your are in the (starvation) category");
         }else if (resultBMI > 16f && resultBMI  <=16.99f) {
